@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;  
+    }
+.navigation{
+   height: 70px;
+    display: flex;
+    
+    align-items:center;
+    justify-content:start;
+    background-color:#7d2ae8;
+    border-radius: 20px;
+
+
+}
+.m{
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+   
+}
+.a{
+    color:;
+}
+
+.nav{
+    display: flex;
+    
+
+    list-style-type: none;
+}
+.nav li{
+    margin: 5px;
+    padding: 4px 10px;
+    
+    
+ 
+}
+.nav li a{
+    /* transition: 3s; */
+    text-decoration:none ;
+    color:white;
+   
+}
+.nav li:hover{
+   
+background: red;
+border-radius: 10px;
+}
+.nav li:hover a{
+    color: black;
+}
+
+.information{
+    display: flex;
+  
+   
+}
+.information>div{
+    flex: 1;
+    margin-left: 100px;
+
+}
+.name{
+    margin-top: 10px;
+    color: #7d2ae8;
+    margin-bottom: 20px;
+}
+.name{
+
+margin-top: 100px;
+}
+.names{
+    margin-top: 30px;
+}
+
+
+.names a {
+ color: #7d2ae8;
+ font-size: 40px;
+ margin: 0 20px;
+ 
+}
+.names a:hover{
+    
+    color: black;
+}
+.img{
+    width: 80%;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+.about{
+    
+
+}
+.about-a{
+    display: flex;
+}
+.about-a>div{
+    flex: 1;
+    margin-top: 30px;
+}
+.about_b{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #7d2ae8;
+    
+}
+.about_c{
+    margin-left: 100px;
+}
+.about_c ul{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.about-d{
+    margin-right: 20px;
+}
+.about-d p {
+    text-align: justify;
+}
+.education{
+    margin-top: 50px;
+}
+
+.educationa{
+   
+background-color: aqua;
+display: flex;
+justify-content:center;
+
+margin: 0 450px;
+margin-top: 50px;
+}
+.schoola{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #7d2ae8;
+
+}
+.school{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px; 
+}
+.schoolc{
+    display: flex;
+    
+}
+.schoolc>div{
+    flex: 1;
+}
+.school div img{
+
+}
+.mahin{
+    margin-top: 80px;
+    background-color: #7d2ae8;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
